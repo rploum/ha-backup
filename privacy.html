@@ -6,11 +6,12 @@
 <p>Last updated: 25 November 2026</p>
 <p>The "Home Assistant Ploum" Google OAuth app is used by one person only: Rob Ploum, for his own Home Assistant installation at home.</p>
 <h2>What Google data is accessed</h2>
-<p>The app requests access only to files it creates itself in Google Drive (the drive.file scope). It uses that access to upload Home Assistant backup files to a "Home Assistant" folder in Rob Ploum's own Google Drive, to list those backups, to download them for a restore, and to delete old ones. It cannot see or change any other file in Google Drive.</p>
+<p><strong>Google Drive.</strong> The app requests access only to files it creates itself in Google Drive (the drive.file scope). It uses that access to upload Home Assistant backup files to a "Home Assistant" folder in Rob Ploum's own Google Drive, to list those backups, to download them for a restore, and to delete old ones. It cannot see or change any other file in Google Drive.</p>
+<p><strong>Google Calendar.</strong> The app requests access to Rob Ploum's own Google Calendar (the calendar scope). Home Assistant uses it to show upcoming events from the family calendar on a wall tablet at home, and it can add events when Rob asks it to. Calendar data is not copied anywhere else.</p>
 <h2>How the data is used and stored</h2>
-<p>The backup files stay in the user's own Google Drive. The OAuth tokens are stored only on the Home Assistant device in the user's home. No data is sent to, stored by or shared with anyone else, and nothing is used for advertising, analytics or any other purpose.</p>
+<p>The backup files stay in the user's own Google Drive and the calendar events stay in the user's own Google Calendar. The OAuth tokens are stored only on the Home Assistant device in the user's home. No data is sent to, stored by or shared with anyone else, and nothing is used for advertising, analytics or any other purpose.</p>
 <h2>Removing access</h2>
-<p>Access can be revoked at any time at https://myaccount.google.com/permissions or by removing the Google Drive integration in Home Assistant.</p>
+<p>Access can be revoked at any time at https://myaccount.google.com/permissions or by removing the Google Drive or Google Calendar integration in Home Assistant.</p>
 <p>Contact: rploum@gmail.com</p>
 <p><a href="index.html">Home</a></p>
 </body></html>
